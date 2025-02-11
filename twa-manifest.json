@@ -19,8 +19,8 @@
     "path": "/Users/kian/Projects/technogold-twa/android.keystore",
     "alias": "android"
   },
-  "appVersionName": "3.2",
-  "appVersionCode": 6,
+  "appVersionName": "3.3",
+  "appVersionCode": 7,
   "shortcuts": [],
   "generatorApp": "bubblewrap-cli",
   "webManifestUrl": "https://app.technogold.gold/manifest.json",
@@ -38,5 +38,5 @@
   "fingerprints": [],
   "additionalTrustedOrigins": [],
   "retainedBundles": [],
-  "appVersion": "3.2"
+  "appVersion": "3.3"
 }

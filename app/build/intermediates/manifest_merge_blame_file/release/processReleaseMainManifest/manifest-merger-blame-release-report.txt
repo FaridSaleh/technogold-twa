@@ -1,0 +1,322 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3    Copyright 2019 Google Inc. All Rights Reserved.
+4
+5     Licensed under the Apache License, Version 2.0 (the "License");
+6     you may not use this file except in compliance with the License.
+7     You may obtain a copy of the License at
+8
+9         http://www.apache.org/licenses/LICENSE-2.0
+10
+11     Unless required by applicable law or agreed to in writing, software
+12     distributed under the License is distributed on an "AS IS" BASIS,
+13     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14     See the License for the specific language governing permissions and
+15     limitations under the License.
+16-->
+17<!--
+18 The "package" attribute is rewritten by the Gradle build with the value of applicationId.
+19     It is still required here, as it is used to derive paths, for instance when referring
+20     to an Activity by ".MyActivity" instead of the full name. If more Activities are added to the
+21     application, the package attribute will need to reflect the correct path in order to use
+22     the abbreviated format.
+23-->
+24<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+25    package="ir.technogold.twa"
+26    android:versionCode="6"
+27    android:versionName="3.2" >
+28
+29    <uses-sdk
+30        android:minSdkVersion="19"
+31        android:targetSdkVersion="35" />
+32
+33    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+33-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:26:9-80
+33-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:26:26-78
+34    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+34-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:27:9-83
+34-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:27:26-80
+35
+36    <queries>
+36-->[com.google.androidbrowserhelper:androidbrowserhelper:2.5.0] /Users/kian/.gradle/caches/8.8/transforms/d3335fbdff4200978ad121d7b141def7/transformed/androidbrowserhelper-2.5.0/AndroidManifest.xml:26:5-34:15
+37        <intent>
+37-->[com.google.androidbrowserhelper:androidbrowserhelper:2.5.0] /Users/kian/.gradle/caches/8.8/transforms/d3335fbdff4200978ad121d7b141def7/transformed/androidbrowserhelper-2.5.0/AndroidManifest.xml:27:9-33:18
+38            <action android:name="android.intent.action.VIEW" />
+38-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:137:17-68
+38-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:137:25-66
+39
+40            <category android:name="android.intent.category.BROWSABLE" />
+40-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:139:17-77
+40-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:139:27-75
+41
+42            <data android:scheme="https" />
+42-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:140:17-141:54
+42-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:140:23-45
+43        </intent>
+44    </queries>
+45
+46    <application
+46-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:35:5-184:19
+47        android:name="ir.technogold.twa.Application"
+47-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:36:9-35
+48        android:allowBackup="true"
+48-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:37:9-35
+49        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+49-->[androidx.core:core:1.7.0] /Users/kian/.gradle/caches/8.8/transforms/4c410e28961c90060b68139d96158d66/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+50        android:extractNativeLibs="true"
+51        android:icon="@mipmap/ic_launcher"
+51-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:38:9-43
+52        android:label="@string/appName"
+52-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:39:9-40
+53        android:manageSpaceActivity="com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity"
+53-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:41:9-105
+54        android:supportsRtl="true"
+54-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:43:9-35
+55        android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+55-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:44:9-68
+56        <meta-data
+56-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:46:9-48:58
+57            android:name="asset_statements"
+57-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:47:13-44
+58            android:resource="@string/assetStatements" />
+58-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:48:13-55
+59        <meta-data
+59-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:51:13-53:58
+60            android:name="web_manifest_url"
+60-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:52:17-48
+61            android:value="@string/webManifestUrl" />
+61-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:53:17-55
+62        <meta-data
+62-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:56:9-58:52
+63            android:name="twa_generator"
+63-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:57:13-41
+64            android:value="@string/generatorApp" />
+64-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:58:13-49
+65
+66        <activity android:name="com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity" >
+66-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:65:13-69:24
+66-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:65:23-104
+67            <meta-data
+67-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:66:13-68:53
+68                android:name="android.support.customtabs.trusted.MANAGE_SPACE_URL"
+68-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:67:17-83
+69                android:value="@string/launchUrl" />
+69-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:68:17-50
+70        </activity>
+71        <activity
+71-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:72:9-145:20
+72            android:name="ir.technogold.twa.LauncherActivity"
+72-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:72:19-51
+73            android:alwaysRetainTaskState="true"
+73-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:73:13-49
+74            android:exported="true"
+74-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:75:13-36
+75            android:label="@string/launcherName" >
+75-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:74:13-49
+76            <meta-data
+76-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:76:13-77:53
+77                android:name="android.support.customtabs.trusted.DEFAULT_URL"
+77-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:76:24-85
+78                android:value="@string/launchUrl" />
+78-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:77:17-50
+79            <meta-data
+79-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:79:13-81:58
+80                android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR"
+80-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:80:17-83
+81                android:resource="@color/colorPrimary" />
+81-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:81:17-55
+82            <meta-data
+82-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:83:13-85:62
+83                android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR_DARK"
+83-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:84:17-88
+84                android:resource="@color/colorPrimaryDark" />
+84-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:85:17-59
+85            <meta-data
+85-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:87:13-89:61
+86                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR"
+86-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:88:17-87
+87                android:resource="@color/navigationColor" />
+87-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:89:17-58
+88            <meta-data
+88-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:91:13-93:65
+89                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR_DARK"
+89-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:92:17-92
+90                android:resource="@color/navigationColorDark" />
+90-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:93:17-62
+91            <meta-data
+91-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:95:13-97:68
+92                android:name="androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR"
+92-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:96:17-84
+93                android:resource="@color/navigationDividerColor" />
+93-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:97:17-65
+94            <meta-data
+94-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:99:13-101:72
+95                android:name="androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR_DARK"
+95-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:100:17-89
+96                android:resource="@color/navigationDividerColorDark" />
+96-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:101:17-69
+97            <meta-data
+97-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:103:13-104:54
+98                android:name="android.support.customtabs.trusted.SPLASH_IMAGE_DRAWABLE"
+98-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:103:24-95
+99                android:resource="@drawable/splash" />
+99-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:104:17-52
+100            <meta-data
+100-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:106:13-107:60
+101                android:name="android.support.customtabs.trusted.SPLASH_SCREEN_BACKGROUND_COLOR"
+101-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:106:24-104
+102                android:resource="@color/backgroundColor" />
+102-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:107:17-58
+103            <meta-data
+103-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:109:13-110:71
+104                android:name="android.support.customtabs.trusted.SPLASH_SCREEN_FADE_OUT_DURATION"
+104-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:109:24-105
+105                android:value="@integer/splashScreenFadeOutDuration" />
+105-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:110:17-69
+106            <meta-data
+106-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:112:13-113:60
+107                android:name="android.support.customtabs.trusted.FILE_PROVIDER_AUTHORITY"
+107-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:112:24-97
+108                android:value="@string/providerAuthority" />
+108-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:113:17-58
+109            <meta-data
+109-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:115:13-97
+110                android:name="android.app.shortcuts"
+110-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:115:24-60
+111                android:resource="@xml/shortcuts" />
+111-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:115:61-94
+112            <meta-data
+112-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:117:13-118:56
+113                android:name="android.support.customtabs.trusted.FALLBACK_STRATEGY"
+113-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:117:24-91
+114                android:value="@string/fallbackType" />
+114-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:118:17-53
+115            <meta-data
+115-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:124:13-125:54
+116                android:name="android.support.customtabs.trusted.SCREEN_ORIENTATION"
+116-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:124:24-92
+117                android:value="@string/orientation" />
+117-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:125:17-52
+118
+119            <intent-filter>
+119-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:131:13-134:29
+120                <action android:name="android.intent.action.MAIN" />
+120-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:132:17-69
+120-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:132:25-66
+121
+122                <category android:name="android.intent.category.LAUNCHER" />
+122-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:133:17-77
+122-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:133:27-74
+123            </intent-filter>
+124            <intent-filter android:autoVerify="true" >
+124-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:136:13-142:29
+124-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:136:28-53
+125                <action android:name="android.intent.action.VIEW" />
+125-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:137:17-68
+125-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:137:25-66
+126
+127                <category android:name="android.intent.category.DEFAULT" />
+127-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:138:17-76
+127-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:138:27-73
+128                <category android:name="android.intent.category.BROWSABLE" />
+128-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:139:17-77
+128-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:139:27-75
+129
+130                <data
+130-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:140:17-141:54
+131                    android:host="@string/hostName"
+131-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:141:21-52
+132                    android:scheme="https" />
+132-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:140:23-45
+133            </intent-filter>
+134        </activity>
+135        <activity android:name="com.google.androidbrowserhelper.trusted.FocusActivity" />
+135-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:147:9-90
+135-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:147:19-87
+136        <activity
+136-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:149:9-150:62
+137            android:name="com.google.androidbrowserhelper.trusted.WebViewFallbackActivity"
+137-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:149:19-97
+138            android:configChanges="orientation|screenSize" />
+138-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:150:13-59
+139
+140        <provider
+140-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:152:9-160:20
+141            android:name="androidx.core.content.FileProvider"
+141-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:153:13-62
+142            android:authorities="@string/providerAuthority"
+142-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:154:13-60
+143            android:exported="false"
+143-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:156:13-37
+144            android:grantUriPermissions="true" >
+144-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:155:13-47
+145            <meta-data
+145-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:157:13-159:53
+146                android:name="android.support.FILE_PROVIDER_PATHS"
+146-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:158:17-67
+147                android:resource="@xml/filepaths" />
+147-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:159:17-50
+148        </provider>
+149
+150        <service
+150-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:162:9-177:19
+151            android:name="ir.technogold.twa.DelegationService"
+151-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:163:13-46
+152            android:enabled="@bool/enableNotification"
+152-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:164:13-55
+153            android:exported="@bool/enableNotification" >
+153-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:165:13-56
+154            <meta-data
+154-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:168:17-170:73
+155                android:name="android.support.customtabs.trusted.SMALL_ICON"
+155-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:169:21-81
+156                android:resource="@drawable/ic_notification_icon" />
+156-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:170:21-70
+157
+158            <intent-filter>
+158-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:173:13-176:29
+159                <action android:name="android.support.customtabs.trusted.TRUSTED_WEB_ACTIVITY_SERVICE" />
+159-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:174:17-105
+159-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:174:25-103
+160
+161                <category android:name="android.intent.category.DEFAULT" />
+161-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:138:17-76
+161-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:138:27-73
+162            </intent-filter>
+163        </service>
+164
+165        <activity android:name="com.google.androidbrowserhelper.trusted.NotificationPermissionRequestActivity" />
+165-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:180:13-118
+165-->/Users/kian/Projects/technogold-twa/app/src/main/AndroidManifest.xml:180:23-115
+166
+167        <meta-data
+167-->[com.google.android.gms:play-services-basement:18.0.0] /Users/kian/.gradle/caches/8.8/transforms/c75b6da21f56ff0b8cd42ba4d667416f/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+168            android:name="com.google.android.gms.version"
+168-->[com.google.android.gms:play-services-basement:18.0.0] /Users/kian/.gradle/caches/8.8/transforms/c75b6da21f56ff0b8cd42ba4d667416f/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+169            android:value="@integer/google_play_services_version" />
+169-->[com.google.android.gms:play-services-basement:18.0.0] /Users/kian/.gradle/caches/8.8/transforms/c75b6da21f56ff0b8cd42ba4d667416f/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+170
+171        <provider
+171-->[androidx.emoji2:emoji2:1.0.0] /Users/kian/.gradle/caches/8.8/transforms/5a962e76f4bdf404dd27a00ce16843ec/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+172            android:name="androidx.startup.InitializationProvider"
+172-->[androidx.emoji2:emoji2:1.0.0] /Users/kian/.gradle/caches/8.8/transforms/5a962e76f4bdf404dd27a00ce16843ec/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+173            android:authorities="ir.technogold.twa.androidx-startup"
+173-->[androidx.emoji2:emoji2:1.0.0] /Users/kian/.gradle/caches/8.8/transforms/5a962e76f4bdf404dd27a00ce16843ec/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+174            android:exported="false" >
+174-->[androidx.emoji2:emoji2:1.0.0] /Users/kian/.gradle/caches/8.8/transforms/5a962e76f4bdf404dd27a00ce16843ec/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+175            <meta-data
+175-->[androidx.emoji2:emoji2:1.0.0] /Users/kian/.gradle/caches/8.8/transforms/5a962e76f4bdf404dd27a00ce16843ec/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+176                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+176-->[androidx.emoji2:emoji2:1.0.0] /Users/kian/.gradle/caches/8.8/transforms/5a962e76f4bdf404dd27a00ce16843ec/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+177                android:value="androidx.startup" />
+177-->[androidx.emoji2:emoji2:1.0.0] /Users/kian/.gradle/caches/8.8/transforms/5a962e76f4bdf404dd27a00ce16843ec/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+178            <meta-data
+178-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/kian/.gradle/caches/8.8/transforms/e3f14a2ef2ad1be40823a5461a0d88a0/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+179                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+179-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/kian/.gradle/caches/8.8/transforms/e3f14a2ef2ad1be40823a5461a0d88a0/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+180                android:value="androidx.startup" />
+180-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/kian/.gradle/caches/8.8/transforms/e3f14a2ef2ad1be40823a5461a0d88a0/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+181        </provider>
+182    </application>
+183
+184</manifest>

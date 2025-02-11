@@ -1,4 +1,4 @@
-#Tue Feb 11 14:15:58 IRST 2025
+#Tue Feb 11 14:44:30 IRST 2025
 base.0=/Users/kian/Projects/technogold-twa/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
